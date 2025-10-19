@@ -1,0 +1,32 @@
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.5; margin: 0; }
+
+.section { max-width: 860px; margin: 0 auto; padding: 0 16px; }
+.card {
+  padding: 18px;         
+  margin: 18px auto;    
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  background: #fafafa;
+}
+
+#hero {
+  text-align: center;
+  padding: 40px 16px 24px;
+  background: linear-gradient(180deg,#f0f9ff,#ffffff);
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.headline { color: #0e7490; margin: 10px 0 6px; }
+.subtitle { color: #475569; margin: 0 0 10px; }
+.links a { margin: 0 6px; }
+
+.avatar { width: 128px; height: 128px; border-radius: 50%; object-fit: cover; }
+
+a { color: #1d4ed8; text-decoration: none; }
+a:hover { color: #ef4444; text-decoration: underline; }
+
+h2 { margin: 0 0 8px; }
+h3 { margin: 14px 0 8px; }
+.course-list { padding-left: 18px; }
+.note { color: #475569; }
+footer { text-align: center; padding: 24px 0 40px; color: #64748b; }
